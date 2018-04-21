@@ -1,0 +1,5 @@
+test/
+.gitignore
+commitlint.config.js
+lint-staged.config.js
+.eslintrc.js
