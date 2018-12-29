@@ -11,7 +11,7 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 
 ## Usage
 ```shell
-npm install --save-dev eslint eslint-plugin-import eslint-config-plugin
+npm install --save-dev eslint eslint-plugin-import eslint-config-poi-plugin
 ```
 and then add `"extends": "poi-plugin"` in your ESLint config (the following example is for `.eslintrc.js`:
 
