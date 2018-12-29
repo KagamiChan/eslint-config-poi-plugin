@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-poi-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint Config for poi (the Kancolle browser) plugin development",
   "main": "index.js",
   "scripts": {
