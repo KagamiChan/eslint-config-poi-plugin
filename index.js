@@ -1,3 +1,5 @@
+const supportedExtensions = ['.js', '.jsx', '.es', 'mjs', '.ts', '.tsx', '.d.ts']
+
 module.exports = {
   env: {
     browser: true,
@@ -15,13 +17,12 @@ module.exports = {
     // to make code like `import'views/env'` valid
     'import/no-unresolved': ['error', { ignore: ['views/.*'] }],
     // to allow .es extension
-    'import/extensions': ['error', { es: 'never' }],
+    'import/extensions': supportedExtensions,
   },
   settings: {
     'import/resolver': {
       node: {
-        // to allow resolving .es and .mjs
-        extensions: ['.js', '.jsx', '.es', 'mjs'],
+        extensions: supportedExtensions,
       },
     },
     // poi will modify require paths so that plugins could use poi's dependencies
@@ -58,6 +59,7 @@ module.exports = {
       '@fortawesome/free-regular-svg-icons',
       '@fortawesome/free-solid-svg-icons',
       '@fortawesome/react-fontawesome',
+      '@sentry/electron',
       '@skagami/react-fontawesome',
       'babel-plugin-add-module-exports',
       'babel-plugin-dynamic-import-node',
@@ -105,7 +107,6 @@ module.exports = {
       'react',
       'react-bootstrap',
       'react-dom',
-      'react-electron-web-view',
       'react-file-dropzone',
       'react-fontawesome',
       'react-grid-layout',
@@ -115,6 +116,8 @@ module.exports = {
       'react-resizable-area',
       'react-ultimate-pagination',
       'react-virtualized',
+      'react-virtualized-auto-sizer',
+      'react-window',
       'reduce-reducers',
       'redux',
       'redux-observers',
