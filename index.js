@@ -16,10 +16,9 @@ module.exports = {
   rules: {
     // to make code like `import'views/env'` valid
     'import/no-unresolved': ['error', { ignore: ['views/.*'] }],
-    // to allow .es extension
-    'import/extensions': supportedExtensions,
   },
   settings: {
+    'import/extensions': supportedExtensions,
     'import/resolver': {
       node: {
         extensions: supportedExtensions,
