@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/KagamiChan/eslint-config-poi-plugin/compare/v3.0.0...v3.0.1) (2020-03-12)
+
+
+### fix
+
+* import extension ([31652e4](https://github.com/KagamiChan/eslint-config-poi-plugin/commit/31652e4c722e2d3a42eb9f2aedec81d1591407c8))
+
+
+
 # [3.0.0](https://github.com/KagamiChan/eslint-config-poi-plugin/compare/v2.0.0...v3.0.0) (2020-03-12)
 
 
